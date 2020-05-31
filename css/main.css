@@ -1,0 +1,17 @@
+#tab{
+    margin-top: 2% !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+.titre{
+    text-align: center;
+    margin-top: 2%;
+}
+.colo{
+    width: 10% !important;
+}
+.bt{
+    width: 20%;
+    background-color: #e5a448  !important;
+    border-color:  #e5a448 !important;
+}

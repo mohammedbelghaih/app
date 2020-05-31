@@ -1,0 +1,85 @@
+#tab{
+    margin-top: 2% !important;
+    width: 80% !important;
+    margin-left: 10% !important;
+}
+.titre{
+    text-align: center;
+    margin-top: 2%;
+}
+.br{
+    width: 10%;
+}
+.container{
+    margin-top: 2%;
+}
+.bt{
+    width: 20%;
+    background-color:#084989;
+    border-color: #084989;
+
+}
+.tl{
+    text-align: center;
+    margin-top: 2%;
+    color: #2610a0;
+}
+.vv .name a{
+    color: black;
+    text-decoration: none;
+}
+.vv{
+    margin-top: 2%;
+    border: 1px grey solid;
+    width: 50%;
+    margin-left: 25%;
+}
+#inscription{
+    
+    background: rgb(13,104,124);
+    background: linear-gradient(90deg, rgba(13,104,124,1) 0%, rgba(21,118,184,0.5830707282913166) 55%, rgba(36,33,144,1) 98%);
+}
+.insc{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#login{
+    background: rgb(13,75,124);
+    background: linear-gradient(90deg, rgba(13,75,124,0.9444152661064426) 0%, rgba(21,63,184,0.5830707282913166) 55%, rgba(91,33,144,0.804359243697479) 98%);
+}
+
+.log{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 16%;
+}
+.register a{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .bt{
+        width: 100%;
+    }
+    .insc, .log  {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 10%;
+    } 
+
+    .br {
+        width: 40%;
+    }
+    #tab{
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
+    .idm{
+        display: none;
+    }
+    .modifier, .supp{
+        background-color: grey;
+    }
+  }
